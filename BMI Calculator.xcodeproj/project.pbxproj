@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4A730175293434E100F760B8 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A730174293434E100F760B8 /* ResultViewController.swift */; };
 		4A73017929343CA200F760B8 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73017829343CA200F760B8 /* CalculatorBrain.swift */; };
+		4A73017B2934468900F760B8 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73017A2934468900F760B8 /* BMI.swift */; };
 		AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F79230D61800065EFD9 /* AppDelegate.swift */; };
 		AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */; };
 		AD0B9F7E230D61800065EFD9 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7D230D61800065EFD9 /* CalculatorViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		4A730174293434E100F760B8 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		4A73017829343CA200F760B8 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalculatorBrain.swift; path = "BMI Calculator/CalculatorBrain.swift"; sourceTree = SOURCE_ROOT; };
+		4A73017A2934468900F760B8 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BMI.swift; path = "BMI Calculator/BMI.swift"; sourceTree = SOURCE_ROOT; };
 		AD0B9F76230D61800065EFD9 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B9F79230D61800065EFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				4A73017829343CA200F760B8 /* CalculatorBrain.swift */,
+				4A73017A2934468900F760B8 /* BMI.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -127,7 +130,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = "Angela Yu";
 				TargetAttributes = {
 					AD0B9F75230D61800065EFD9 = {
@@ -176,6 +179,7 @@
 				AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */,
 				AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */,
 				4A73017929343CA200F760B8 /* CalculatorBrain.swift in Sources */,
+				4A73017B2934468900F760B8 /* BMI.swift in Sources */,
 				4A730175293434E100F760B8 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +232,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -288,6 +293,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
